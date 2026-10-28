@@ -4,6 +4,10 @@
 
 # Questions
 
+1. which things that take up the most time?
+2. How many time i get in the bus?
+3. what is the differents that i ate how many time melas between weekends and weekday ?
+
 # Data Dictionary
 
 | Column            | Data Type | Units           | Measurement Method                 |
@@ -13,15 +17,31 @@
 | wake_up_time      | Time      | HH              | Record when I wake up              |
 | screen_time_hours | Float     | Hours           | Check daily phone screen time      |
 | meals_count       | Integer   | Number of meals | Count meals eaten that day         |
+| weather           | weather   | raining/sunny   | looking the weather on that day    |
+|bus time           | Float     | HH	          | Record the bus arriving time       |
+
+
+
 
 
 # Description of the project
 
+This project collects data about my daily routine . I want to understand how I spend my time and identify patterns in my daily activities. I will record activities such as study,  sleeping, eating and leisure time. I will use Python, a database to analyse my data and create visualisations.
+
 # Instructions for use
+
+The project will be run using Python. The application will load the collected CSV data into a database, analyse the data and display results .
 
 # How it works:
 
+1. collect data and record daily
+2. save it in CSV file.
+3. Load it and show it in python
+4. store the data in SQL
+
 # Findings
+
+to be completed after collecting and analysing the data
 
 # List of files in the project
 
