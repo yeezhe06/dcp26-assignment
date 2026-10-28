@@ -6,6 +6,15 @@
 
 # Data Dictionary
 
+| Column            | Data Type | Units           | Measurement Method                 |
+| ----------------- | --------- | --------------- | ---------------------------------- |
+| date              | Date      | YYYY-MM-DD      | Record the date                    |
+| sleep_hours       | Float     | Hours           | Record total hours slept           |
+| wake_up_time      | Time      | HH              | Record when I wake up              |
+| screen_time_hours | Float     | Hours           | Check daily phone screen time      |
+| meals_count       | Integer   | Number of meals | Count meals eaten that day         |
+
+
 # Description of the project
 
 # Instructions for use
