@@ -1,2 +1,28 @@
-Data Collection Project
+D# Data Collection Project
 
+## 1. Project Overview
+
+This project collects data about myu daily routine.
+
+## 2. Data Collection Method
+
+I will collect data by making observations and recording them consistently.
+
+## 3. Data Dictionary
+
+| Column            | Data Type | Units           | Measurement Method                 |
+| ----------------- | --------- | --------------- | ---------------------------------- |
+| date              | Date      | YYYY-MM-DD      | Record the date                    |
+| sleep_hours       | Float     | Hours           | Record total hours slept           |
+| wake_up_time      | Time      | HH              | Record when I wake up              |
+| screen_time_hours | Float     | Hours           | Check daily phone screen time      |
+| meals_count       | Integer   | Number of meals | Count meals eaten that day         |
+
+
+## 4. Data Storage
+
+The collected data will be stored in `data/my_data.csv`.
+
+## 5. Data Collection Photos
+
+Photos documenting the data collection process will be added here.
