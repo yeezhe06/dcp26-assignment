@@ -1,2 +1,11 @@
-date	Date,sleep_hours,wake_up_time,screen_time_hours,meals_count,weather,bus time
-2026-10-19,7hr58min,8:55am,10h 59m, 2,sunny day, 12.09pm
+Date,sleep_hours,wake_up_time,screen_time_hours,meals_count,weather,bus_time to school, back to home,
+2026-10-19,7hr58min,8:55am,10h 59m, 2,sunny day, 12.09pm,4.15pm
+2026-10-20,8hr36min,8:45am,10h 21m, 3, sunny day, no class, no class
+2026-10-21,9hr47min,9:10am,11h 50m, 1,raining day, 10.15am,1.30pm
+2026-10-22,6hr38min,7:26am,11h 58m, 1, half raining half sunny day, 7.58am, 6.24pm
+2026-10-23,8hr50min,9:41am,9h 39m, 3,raining day, 10.15am,2.30pm
+2026-10-24,8hr11min,10:11am,9h 31m, 3,raining day, 1.15pm (working),10.30pm(working)
+2026-10-25,7hr29min,10:02am,9h 11m, 3,raining day, 1.05pm (working),10.24pm(working)
+2026-10-26,7hr33min,8:02am,8h 41m, 3,raining day, 1.06pm (working),10.33pm(working)
+2026-10-27,7hr3min,8:27am,13h 57m, 2,sunny day, Holiday ,Holiday
+2026-10-28,6hr57min,8:32am,4h 48m, 2,sunny day, Holiday ,Holiday
