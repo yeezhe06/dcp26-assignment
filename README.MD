@@ -18,8 +18,8 @@
 | screen_time_hours | Float     | Hours           | Check daily phone screen time      |
 | meals_count       | Integer   | Number of meals | Count meals eaten that day         |
 | weather           | weather   | raining/sunny   | looking the weather on that day    |
-|bus time           | Float     | HH	          | Record the bus arriving time       |
-
+|bus time  to school| Float     | HH	          | Record the bus arriving time       |
+|bus time to home   | Float     | HH	          | Record the bus arriving time       |
 
 
 
