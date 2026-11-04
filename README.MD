@@ -114,7 +114,7 @@ public void render()
 
 This is an image using a relative URL:
 
-![An image](images/p8.png)
+![An image](https://github.com/yeezhe06/dcp26-assignment/blob/main/images/9344870a-76c3-45a4-850a-0880abf4c36b.jpg)
 
 This is an image using an absolute URL:
 
