@@ -112,9 +112,9 @@ public void render()
 }
 ```
 
-This is an image using a relative URL:
+## Data Collection Photos
 
-![An image](https://github.com/yeezhe06/dcp26-assignment/blob/main/images/9344870a-76c3-45a4-850a-0880abf4c36b.jpg)
+- [Click here to view my data collection photo](images/c0a1f667-3520-4615-be65-fea6b410b3a0.jpg)
 
 This is an image using an absolute URL:
 
