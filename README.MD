@@ -114,7 +114,8 @@ public void render()
 
 ## Data Collection Photos
 
-- [Click here to view my data collection photo](images/c0a1f667-3520-4615-be65-fea6b410b3a0.jpg)
+- [Daily record sleeping time](images/c0a1f667-3520-4615-be65-fea6b410b3a0.jpg)
+- [Daily record weather](9344870a-76c3-45a4-850a-0880abf4c36b.jpg)
 
 This is an image using an absolute URL:
 
