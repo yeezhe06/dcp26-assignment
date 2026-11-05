@@ -116,7 +116,8 @@ public void render()
 
 - [Daily record sleeping time](images/c0a1f667-3520-4615-be65-fea6b410b3a0.jpg)
 - [Daily record weather](images/9344870a-76c3-45a4-850a-0880abf4c36b.jpg)
-
+- [Daily record sleeping time - 4 Nov](images/ba0b7caa-e357-4266-9b10-0db5a64db212.jpg)
+- [Daily record weather - 4 Nov](images/49b0fdaf-57d6-4958-8b24-9396443704bf.jpg)
 This is an image using an absolute URL:
 
 ![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
