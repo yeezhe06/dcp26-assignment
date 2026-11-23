@@ -1,4 +1,4 @@
-Date,sleep_hours,sleeping_time,wake_up_time,meals_count,weather,bus_time to school, back to home
+Date,sleep_hours,sleeping_time,wake_up_time,meals_count,weather,bus_time_to_school,back_to_home
 2026-10-19,7hr58min,1:04am,8:55am, 2,sunny day, 12.09pm,4.15pm
 2026-10-20,8hr36min,12.42am,8:45am, 3, sunny day, no class, no class
 2026-10-21,9hr47min,12:04am,9:10am, 1,raining day, 10.15am,1.30pm
@@ -12,10 +12,10 @@ Date,sleep_hours,sleeping_time,wake_up_time,meals_count,weather,bus_time to scho
 2026-11-03,8hr37min,12:21am,9.20am,2,raining day, 11.09am, 3.19pm
 2026-11-04,7hr52min,12:07am,8.06am,2,raining day, 10.05am, 1.46pm
 2026-11-05,9hr58min,10:26pm,8.45am,2,raining day, 9.06am,6.57pm
-2026-11-11，7hr43min,1.07am,8.56am,2,sunny day, 10.24am, 2.42pm
+2026-11-11,7hr43min,1.07am,8.56am,2,sunny day, 10.24am, 2.42pm
 2026-11-12,6hr6min,1.36am,7.48am,2,raining day, 8.07am, 7.49pm
 2026-11-13,7hr39min,12.16am,7.58am,3,raining day, 8.19am, 1.42pm
 2026-11-16,7hr44min,1.16am,9.08am,2,sunny day,12.18am,4.29pm
-2026-11-17,8hr1min, 1.21am,,9.24am,2, sunny day, 10.29am, 3.28pm
-20206-11-18,8hr31min,12.52am,9.34am,2,raining day, 10.39am,2.21pm
+2026-11-17,8hr1min, 1.21am,9.24am,2, sunny day, 10.29am, 3.28pm
+2026-11-18,8hr31min,12.52am,9.34am,2,raining day, 10.39am,2.21pm
 2026-11-19,5hr59min,1.37am,7.50am, 3,raining day, 8.09am,7.49pm
