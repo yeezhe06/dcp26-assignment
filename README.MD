@@ -4,9 +4,9 @@
 
 # Questions
 
-1. which things that take up the most time?
-2. How many time i get in the bus?
-3. what is the differents that i ate how many time melas between weekends and weekday ?
+1. What is the most common weather condition during my recorded days?
+2. How many meals do I usually eat per day?
+4. How does my sleeping duration change over time?
 
 # Data Dictionary
 
@@ -26,7 +26,7 @@
 
 # Description of the project
 
-This project collects data about my daily routine . I want to understand how I spend my time and identify patterns in my daily activities. I will record activities such as study,  sleeping, eating and leisure time. I will use Python, a database to analyse my data and create visualisations.
+This project collects data about my daily routine . I want to understand how I spend my time and identify patterns in my daily activities. I will record activities such as study,  sleeping, eating and leisure time. I will use Python, SQLlite, Pandas and Matplotlib to analyse my data and create visualisations. I also created an interactive menu that allows users to view data, display charts.
 
 # Instructions for use
 
@@ -38,6 +38,11 @@ The project will be run using Python. The application will load the collected CS
 2. save it in CSV file.
 3. Load it and show it in python
 4. store the data in SQL
+5. use sql queries to show it out
+6. use pandas to analyse the results
+7. use matplotlib to create graph
+8. create few option to users to interact
+
 
 Data Analysis and Findings
 
@@ -65,60 +70,12 @@ The average number of meals was 2.25 per recorded day.
 
 # What I am most proud of in the assignment
 
-Bla bla bla
+I am most proud is that i collect data almost everyday that i don't usually did and i don't often use laptop. 
 
 # What I learned
 
-Bla bla bla
+in this assigment, i have leanred how to organise the data and print it out. i also learn how to use pandas and matplotlib to make tables.
 
-## Below is how to use Markdown. You can delete this:
-
-## This is how to markdown text:
-
-This is *emphasis*
-
-This is a bulleted list
-
-- Item
-- Item
-
-This is a numbered list
-
-1. Item
-1. Item
-
-This is a [hyperlink](http://bryanduggan.org)
-
-# Headings
-## Headings
-#### Headings
-##### Headings
-
-This is code:
-
-```Java
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-So is this without specifying the language:
-
-```
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
 
 ## Data Collection Photos
 
@@ -126,20 +83,3 @@ public void render()
 - [Daily record weather](images/9344870a-76c3-45a4-850a-0880abf4c36b.jpg)
 - [Daily record sleeping time - 4 Nov](images/ba0b7caa-e357-4266-9b10-0db5a64db212.jpg)
 - [Daily record weather - 4 Nov](images/49b0fdaf-57d6-4958-8b24-9396443704bf.jpg)
-This is an image using an absolute URL:
-
-![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
-
-This is a youtube video:
-
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
-
-This is a table:
-
-| Heading 1 | Heading 2 |
-|-----------|-----------|
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-
-|Some stuff | Some more stuff in this column |
