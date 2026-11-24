@@ -11,44 +11,6 @@ print(df)
 
 average_meals = df["meals_count"].mean()
 
-print("\nAverage Number of Meals:")
-print(average_meals)
-
-weather_count = df["weather"].value_counts()
-
-print("\nWeather Count:")
-print(weather_count)
-
-
-#weather graph
-df["weather"] = df["weather"].str.lower()
-
-count = df["weather"].value_counts().head(10)
-print(count)
-
-plt.bar(count.index,count.values)
-plt.title("weather Record")
-plt.xlabel("weather type")
-plt.ylabel("Numbers of Days")
-plt.xticks(rotation=45, ha="right")
-plt.tight_layout()  
-plt.savefig("setp2.png")             
-plt.show()
-
-#meals graph
-count = df["meals_count"].value_counts().sort_index()
-print(count)
-
-plt.bar(count.index,count.values)
-plt.title("Meals record")
-plt.xlabel("Number of meals")
-plt.ylabel("Numbers of Days")
-plt.xticks(rotation=45, ha="right")
-plt.tight_layout()  
-plt.savefig("step3.png")             
-plt.show()
-
-
 connection = sqlite3.connect("daily_routine.db")
 
 
@@ -122,3 +84,61 @@ for row in dta:
 
 connection.close()
 
+while True:
+    print("\nDaily Routine Menu")
+    print("1. View Data")
+    print("2. View Weather Count")
+    print("3. View Meals Count")
+    print("4. View Average Meals")
+    print("5. View Weather Chart")
+    print("6. View Meals Chart")
+    print("7. Exit")
+
+    choice = input("Enter your choice: ")
+
+    if choice == "1":
+        print(df)
+
+    elif choice == "2":
+        print(df["weather"].value_counts())
+
+    elif choice == "3":
+        print(df["meals_count"].value_counts())
+
+    elif choice == "4":
+        print(df["meals_count"].mean())
+
+    elif choice =="5":
+        df["weather"] = df["weather"].str.lower()
+
+        count = df["weather"].value_counts().head(10)
+        print(count)
+
+        plt.bar(count.index,count.values)
+        plt.title("weather Record")
+        plt.xlabel("weather type")
+        plt.ylabel("Numbers of Days")
+        plt.xticks(rotation=45, ha="right")
+        plt.tight_layout()  
+        plt.savefig("setp2.png")             
+        plt.show()
+
+    elif choice == "6":
+        count = df["meals_count"].value_counts().sort_index()
+        print(count)
+
+        plt.bar(count.index,count.values)
+        plt.title("Meals record")
+        plt.xlabel("Number of meals")
+        plt.ylabel("Numbers of Days")
+        plt.xticks(rotation=45, ha="right")
+        plt.tight_layout()  
+        plt.savefig("step3.png")             
+        plt.show()
+
+    elif choice == "7":
+        print("Goodbye!")
+        break
+
+    else:
+        print("Invalid choice. Please try again.")
