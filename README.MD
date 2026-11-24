@@ -49,13 +49,13 @@ Data Analysis and Findings
 1. Weather Analysis
 
 The weather analysis shows that rainy days were the most common weather condition, with 12 days out of 20 (60%). Sunny days were recorded on 7 days (35%), while 1 day (5%) had both rain and sunshine.
-- [Weather Chart]
+- [Weather Chart](images/Weather.png)
 
 2. Meals Analysis
 
 The meals analysis shows that I usually had 2 meals per day. I had 2 meals on 11 days, 3 meals on 7 days and 1 meal on 2 days.
 The average number of meals was 2.25 per recorded day.
--[Meals Chart]
+-[Meals Chart](images/download.png)
 
 
 
